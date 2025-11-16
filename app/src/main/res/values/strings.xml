@@ -1,0 +1,19 @@
+<resources>
+    <string name="app_name">Zakat Gold Calculator</string>
+
+    <string-array name="gold_type">
+        <item>Keep</item>
+        <item>Wear</item>
+    </string-array>
+
+    <!-- Personal Details -->
+    <string name="student_profile">Name : Muhammad Ezzra Bin Rozaini No Matrix:2023216938 Class: CDCS2405B</string>
+
+
+    <string name="about_text">
+        This application helps users calculate gold zakat based on weight, price, and gold usage type. It is designed to make zakat calculation easier, faster, and more accurate.</string>
+        <string name="copyright">
+        © 2025 Zakat Gold Calculator
+
+    </string>
+</resources>

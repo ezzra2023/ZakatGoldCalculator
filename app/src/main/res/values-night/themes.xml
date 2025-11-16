@@ -1,0 +1,23 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+
+    <style name="Base.Theme.ZakatGoldCalculator" parent="Theme.Material3.DayNight.NoActionBar">
+
+        <!-- Primary Gold -->
+        <item name="colorPrimary">@color/gold_primary</item>
+        <item name="colorPrimaryContainer">@color/gold_secondary</item>
+
+        <!-- Secondary -->
+        <item name="colorSecondary">@color/gold_primary</item>
+        <item name="colorSecondaryContainer">@color/gold_secondary</item>
+
+        <!-- Text colors on dark -->
+        <item name="android:textColor">@color/gold_on_dark</item>
+
+        <!-- Background -->
+        <item name="android:windowBackground">@color/app_background_dark</item>
+
+        <!-- Toolbar -->
+        <item name="android:colorBackground">@color/app_background_dark</item>
+    </style>
+
+</resources>
