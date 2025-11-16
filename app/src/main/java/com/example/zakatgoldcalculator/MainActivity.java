@@ -72,7 +72,7 @@ public class MainActivity extends AppCompatActivity {
         });
 
 
-        // Insets
+
         ViewCompat.setOnApplyWindowInsetsListener(findViewById(R.id.main), (v, insets) -> {
             Insets systemBars = insets.getInsets(WindowInsetsCompat.Type.systemBars());
             v.setPadding(systemBars.left, systemBars.top, systemBars.right, systemBars.bottom);
@@ -82,7 +82,6 @@ public class MainActivity extends AppCompatActivity {
 
     private void calculateZakat() {
 
-        // Validate input
         if (etWeight.getText().toString().isEmpty() || etPrice.getText().toString().isEmpty()) {
             Toast.makeText(this, "Please fill all fields!", Toast.LENGTH_SHORT).show();
             return;
@@ -94,7 +93,7 @@ public class MainActivity extends AppCompatActivity {
 
         double uruf = type.equalsIgnoreCase("Keep") ? 85 : 200;
 
-        // Calculations
+
         double totalValue = weight * price;
 
         double zakatWeight = weight - uruf;
@@ -103,7 +102,7 @@ public class MainActivity extends AppCompatActivity {
         double zakatPayable = zakatWeight * price;
         double totalZakat = zakatPayable * 0.025;
 
-        // Output
+
         String result =
                 "Gold Weight: " + weight + " g\n" +
                         "Gold Price: RM " + price + "\n" +
@@ -121,19 +120,19 @@ public class MainActivity extends AppCompatActivity {
 
 
 
-    // MENU HANDLING
+
     @Override
     public boolean onOptionsItemSelected(MenuItem item) {
         int selected = item.getItemId();
 
-        // ABOUT PAGE
+
         if (selected == R.id.menuAbout) {
             Intent intent = new Intent(this, AboutActivity.class);
             startActivity(intent);
             return true;
         }
 
-        // SHARE FUNCTION
+
         else if (selected == R.id.menuShare) {
             String link = "https://github.com/ezzra2023/ZakatGoldCalculator";
 

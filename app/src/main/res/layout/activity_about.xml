@@ -33,7 +33,7 @@
             android:layout_height="wrap_content"
             android:gravity="center_horizontal">
 
-            <!-- APP ICON -->
+
             <ImageView
                 android:id="@+id/imageView"
                 android:layout_width="110dp"
@@ -41,7 +41,7 @@
                 android:layout_marginTop="20dp"
                 android:src="@mipmap/ic_launcher" />
 
-            <!-- APP NAME -->
+
             <TextView
                 android:id="@+id/textAppName"
                 android:layout_width="match_parent"
@@ -53,7 +53,7 @@
                 android:textSize="26sp"
                 android:textStyle="bold" />
 
-            <!-- PERSONAL INFO -->
+
             <TextView
                 android:id="@+id/textPersonalInfo"
                 android:layout_width="match_parent"
@@ -65,9 +65,9 @@
                 android:gravity="center"
                 android:padding="10dp" />
 
-            <!-- COPYRIGHT -->
 
-            <!-- ABOUT TEXT -->
+
+
             <TextView
                 android:id="@+id/textAbout"
                 android:layout_width="match_parent"
@@ -78,7 +78,7 @@
                 android:gravity="center"
                 android:padding="10dp" />
 
-            <!-- BACK BUTTON -->
+
             <Button
                 android:id="@+id/buttonBack"
                 android:layout_width="wrap_content"

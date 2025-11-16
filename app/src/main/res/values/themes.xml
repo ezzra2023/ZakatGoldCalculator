@@ -2,18 +2,18 @@
 
     <style name="Base.Theme.ZakatGoldCalculator" parent="Theme.Material3.DayNight.NoActionBar">
 
-        <!-- Primary Brand Colors -->
+
         <item name="colorPrimary">@color/gold_primary</item>
         <item name="colorPrimaryContainer">@color/gold_secondary</item>
 
-        <!-- Buttons, Highlights -->
+
         <item name="colorSecondary">@color/gold_primary</item>
         <item name="colorSecondaryContainer">@color/gold_secondary</item>
 
-        <!-- Text Colors -->
+
         <item name="android:textColor">@color/app_background_dark</item>
 
-        <!-- Background -->
+
         <item name="android:windowBackground">@android:color/white</item>
 
     </style>
