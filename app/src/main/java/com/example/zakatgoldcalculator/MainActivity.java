@@ -135,7 +135,7 @@ public class MainActivity extends AppCompatActivity {
 
         // SHARE FUNCTION
         else if (selected == R.id.menuShare) {
-            String link = "https://yourappwebsite.com";
+            String link = "https://github.com/ezzra2023/ZakatGoldCalculator";
 
             Intent shareIntent = new Intent(Intent.ACTION_SEND);
             shareIntent.setType("text/plain");
