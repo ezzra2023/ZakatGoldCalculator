@@ -14,6 +14,7 @@
         This application helps users calculate gold zakat based on weight, price, and gold usage type. It is designed to make zakat calculation easier, faster, and more accurate.</string>
         <string name="copyright">
         © 2025 Zakat Gold Calculator
-
     </string>
+
+    <string name="github_link">https://github.com/ezzra2023/ZakatGoldCalculator</string>
 </resources>
